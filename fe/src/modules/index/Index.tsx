@@ -1,8 +1,9 @@
+import Modal from "@/modules/index/components/Modal";
+
 const Index = () => {
   return (
-    <div>
-      <h1>Hello, I'm a Dummy Component!</h1>
-      <p>This is just a placeholder component for demonstration purposes.</p>
+    <div className="flex justify-center items-center h-full bg-gradient-to-r from-MAIN-pink to-MAIN-azure">
+      <Modal />
     </div>
   );
 };
